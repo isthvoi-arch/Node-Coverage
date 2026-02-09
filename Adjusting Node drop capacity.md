@@ -1,6 +1,6 @@
 ```mermaid
 flowchart TD
-    LookIntoNode[Look into node and current drop capacity]
+    LookIntoNode[Look into the nodes and current drop capacity for each nodes]
         --> CheckDemand[Review historical ride data<br/>for that area to understand demand]
     CheckDemand
         --> CheckLocation[Check physical location<br/>to assess how many scooters fit]
