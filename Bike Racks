@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
 
     A[Start] --> B[Identify area / node<br/>where more drops may be needed]
@@ -7,7 +8,7 @@ flowchart TD
     C --> D{Is bike rack<br/>public or private?}
 
     D -->|Public| E[Check if public rack<br/>is allowed for drops]
-    D -->|Private| F[Treat as &quot;no rack available&quot;<br/>unless special permission exists]
+    D -->|Private| F[Treat as "no rack available"<br/>unless special permission exists]
 
     E --> G{Rack allowed<br/>for drops?}
     G -->|Yes| H[Use as potential<br/>drop location]
@@ -20,14 +21,14 @@ flowchart TD
 
     J --> K{Decision on configuration}
 
-    K -->|Demand HIGH &amp;<br/>capacity LOW| L[Configure new drop(s)<br/>or expand existing node]
-    K -->|Demand HIGH &amp;<br/>capacity OK but misparking| M[Adjust drop positions and/or<br/>add capacity / guidance]
+    K -->|Demand HIGH &<br/>capacity LOW| L[Configure new drop(s)<br/>or expand existing node]
+    K -->|Demand HIGH &<br/>capacity OK but misparking| M[Adjust drop positions and/or<br/>add capacity / guidance]
     K -->|Demand LOW| N[Keep as is or<br/>reduce / merge drops]
 
     L --> O[Implement configuration<br/>(create/adjust drops,<br/>link to valid racks)]
     M --> O
     N --> O
 
-    O --> P[Review &amp; monitor<br/>(usage, parking quality,<br/>iterate if needed)]
+    O --> P[Review & monitor<br/>(usage, parking quality,<br/>iterate if needed)]
 
     P --> Q[End]
