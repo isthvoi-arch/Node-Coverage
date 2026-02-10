@@ -1,11 +1,11 @@
 ```mermaid
 flowchart TD
 
-    A["Start"] --> B["Identify area / node\nwhere more drops may be needed"]
+    A["Start"] --> B["Identify area / node where more drops may be needed"]
 
-    B --> C["Check current bike rack coverage\nin the area"]
+    B --> C["Check current bike rack coverage in the area"]
 
-    C --> D{"Is bike rack\npublic or private?"}
+    C --> D{"Is bike rack public or private?"}
 
     D -->|Public| E["Check if public rack\nis allowed for drops"]
     D -->|Private| F["Treat as 'no rack available'\nunless special permission exists"]
