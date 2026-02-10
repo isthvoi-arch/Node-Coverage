@@ -2,31 +2,27 @@
 
 ## Overview
 
-Node-Coverage is a technical documentation and configuration repository designed to support node management, scaling, and performance optimization within distributed systems. It serves as a central reference for processes, configurations, and best practices related to system coverage and capacity handling.
+Node-Coverage is a documentation and configuration repository focused on optimizing scooter distribution and coverage across operational areas. Each node represents a drop location or cluster where scooters can be deployed. The repository supports data-driven decisions on where to add, adjust, or remove nodes to improve availability, utilization, and overall service efficiency.
 
 ## Purpose
 
-The purpose of this repository is to provide a structured and evolving knowledge base for:
-
-- Managing nodes
-- Improving reliability
-- Ensuring efficient system operation as the architecture grows
+The purpose of this repository is to centralize methodologies, configuration logic, and best practices for managing and optimizing drop locations across the map. The goal is to ensure balanced coverage, minimize idle scooters, and enhance rider accessibility.
 
 ## Contents
 
 This repository may include:
 
-- Setup and configuration guides  
-- Node scaling and capacity adjustment procedures  
-- Performance tuning and monitoring references  
-- Future documentation for automation, fault tolerance, and optimization  
+- Procedures for adding or adjusting drop nodes
+- Guidelines for optimizing node density and capacity
+- Documentation on data inputs, map layers, and operational parameters
+- Future materials on automation, simulation, and predictive modeling
 
 ## Usage
 
-Use this repository as a reference when modifying, scaling, or maintaining node infrastructure. Each file focuses on a specific operational or architectural aspect.
+Use this repository as a reference when planning or modifying node coverage. It provides context for operational decisions, configuration standards, and optimization strategies across different city zones.
 
 ## Future Scope
 
-- Expand documentation to cover new system modules  
-- Integrate automation and monitoring workflows  
-- Maintain versioned updates for evolving infrastructure  
+- Integrate demand forecasting and heatmap analytics
+- Automate node adjustment workflows
+- Expand documentation for new markets and operational models
