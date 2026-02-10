@@ -10,6 +10,5 @@ flowchart TD
     E --> G{High demand?}
     G -->|Yes| H[Add / Adjust drops]
     G -->|No| I[Keep as is]
-    H --> I[Publish]
-    I --> Publish
+    H --> Publish
 ```
