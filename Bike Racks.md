@@ -11,6 +11,5 @@ flowchart TD
     G -->|Yes| H[Add / Adjust drops]
     G -->|No| I[Keep as is]
     H --> J[Monitor]
-    I --> J
-    J --> K[End]
+    I --> Publish
 ```
